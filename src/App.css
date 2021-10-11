@@ -25,7 +25,14 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: yellow;
+}
+
+.example {
+  color: blue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: 10px yellow solid;
+  padding: 5px;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +42,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.info {
+  width: 15%;
+  border: 5px solid grey;
+  padding: 5px;
+  margin: 5px;
+  margin-top: 20px;
+  display: inline-block;
 }
